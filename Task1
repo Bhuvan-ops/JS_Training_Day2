@@ -1,0 +1,7 @@
+function add(num, str){
+    return num + str;
+}
+let sum = add(5, "5");
+console.log(sum, typeof sum);
+/* num + str = str
+num - str = num */
