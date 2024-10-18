@@ -1,0 +1,5 @@
+let arr = ["",0,null,"hello",42]
+let newarr = arr.map((element)=>{
+    return Boolean(element)
+})
+console.log(newarr)
