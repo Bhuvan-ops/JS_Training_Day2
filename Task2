@@ -1,0 +1,7 @@
+function convert(str){
+    return Number(str);
+}
+let str = "123";
+let num = convert(str);
+console.log("Before Conversion : ",str, typeof str);
+console.log("After Conversion : ",num, typeof num);
